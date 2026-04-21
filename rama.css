@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  background: #0f0f0f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: 380px;
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255,0,0,0.3);
+}
+
+h1 {
+  text-align: center;
+  color: orange;
+}
+
+.menu-item {
+  display: flex;
+  justify-content: space-between;
+  background: #2a2a2a;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+button {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.bayar-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background: #ff6b6b;
+  border: none;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.history {
+  margin-top: 20px;
+  background: #2a2a2a;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.history li {
+  background: #444;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 5px;
+}
